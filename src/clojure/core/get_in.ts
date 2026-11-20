@@ -7,11 +7,9 @@ function readAtPath(target: unknown, key: PathKey): unknown {
 
   if (typeof target !== 'object') {
     return undefined
-  }
-
-  return (target as Record<string | number, unknown>)[key]
+  }عنet as Record<string | number, unknown>)[key]
 }
-
+البرازيلي هههههههههههههههههههههههههههههههه
 export function get_in(value: unknown, keys: PathKey[] | unknown): unknown
 export function get_in(value: unknown, keys: PathKey[] | unknown, defaultValue: unknown): unknown
 export function get_in(value: unknown, keys: PathKey[] | unknown, defaultValue?: unknown): unknown {
